@@ -9,9 +9,13 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subtitleLabel: UILabel!
                             
     override func viewDidLoad() {
         super.viewDidLoad()
+        titleLabel.text = "New Label Text"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
